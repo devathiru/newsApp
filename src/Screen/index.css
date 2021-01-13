@@ -1,0 +1,52 @@
+body {
+    background-color: #ff6600;
+    padding: 20px;
+    margin: 0;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #e5e5e5;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: #fff;
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .todoContainer {
+    width: 100%;
+    background-color: "white";
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ant-col-5 {
+    float: left;
+  }
+  .text {
+    -webkit-line-clamp: 2; /* number of lines to show */
+ }
